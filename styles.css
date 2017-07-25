@@ -1,0 +1,40 @@
+div {
+  background-color: #a2c0f2;
+  border: solid black 3px;
+  border-radius: 30px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  width: 30%;
+  text-align: left;
+}
+
+p {
+  margin: -10px;
+  margin-bottom: -15px;
+}
+
+#title {
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #a2c0f2;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #FF0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
